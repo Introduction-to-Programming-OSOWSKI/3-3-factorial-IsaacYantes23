@@ -1,8 +1,10 @@
 def factorial(y):
-    factor < y
-    for i in range(1,y):
-        factor = factor * y
-
-        return factor
+    
+    number = 1
+   
+    for i in range(1, y + 1):
+        number = number * i
+        
+    return number
 
 print(factorial(5))
